@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <title>Todo Apps</title>
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+        <div class="header">
+            <h1>Todo Apps</h1>
+            <hr />
+        </div>
+        <div class="body_todo">
+            <div class="input_body">
+                <input type="text" id="task_form" placeholder="Masukkan task.">
+                <button id="btn_click">+ Add Task</button>
+            </div>
+            <div class="table_body">
+                <table border="1" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Task</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tBody">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+   </div>
+
+   <!-- Footer -->
+   <footer class="bg-primary text-white text-center pb-5">
+    <p> Created With <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/ivan_bagus_/?hl=id" class="text-white fw-bold">Ivan Bagus Widodo</a></p>
+    </footer>
+    <!-- akhir footer -->
+
+   <script src="script.js"></script>
+</body>
+</html>

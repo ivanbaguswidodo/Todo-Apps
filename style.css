@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 16px auto;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.header {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.header h1{
+    color: chocolate;
+}
+
+.body_todo {
+    width: 50%;
+    margin: auto;
+}
+
+.input_body {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.input_body input{
+    width: 100%;
+    padding: 8px 16px;
+}
+
+.input_body button {
+    width: 50%;
+    padding: 8px 16px;
+}
+
+.table_body {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+th,td {
+    padding: 5px;
+}
+
+th{
+    background-color: darksalmon;
+}
